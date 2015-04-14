@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#fff"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            >
+
+        <com.henry.AccountApplication.CountPercentView
+                android:id="@+id/countPercentView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="吃"
+                    android:id="@+id/textView_eat"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+            <!--eat,wear,live,route,use-->
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="穿"
+                    android:id="@+id/textView_wear"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="住"
+                    android:id="@+id/textView_live"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+            <!--eat,wear,live,route,use-->
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="行"
+                    android:id="@+id/textView_route"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                >
+
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="用"
+                    android:id="@+id/textView_use"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+            <TextView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="kong"
+                    android:id="@+id/textView_empty"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    />
+            <!--eat,wear,live,route,use-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+            android:id="@+id/listView_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+
+    <TextView
+            android:id="@+id/textView_emptyinfo_home"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="暂无数据"
+            />
+
+</LinearLayout>
+

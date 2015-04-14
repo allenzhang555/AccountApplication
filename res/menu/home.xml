@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:title="柱状图"
+            android:showAsAction="ifRoom"
+            android:id="@+id/action_rectPic"
+            />
+    <item
+            android:title="支出"
+            android:showAsAction="ifRoom"
+            android:id="@+id/action_consume"
+            />
+    <item
+            android:title="收入"
+            android:showAsAction="ifRoom"
+            android:id="@+id/action_incoming"
+            />
+    <item
+            android:title="二维码扫描"
+            android:showAsAction="ifRoom"
+            android:id="@+id/action_barcode"
+            />
+</menu>

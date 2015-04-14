@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#fff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <TextView
+            android:gravity="center"
+            android:background="#fffdff10"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:text="消费"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                ></Spinner>
+
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                ></Spinner>
+
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                ></Spinner>
+
+        <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                ></Spinner>
+    </LinearLayout>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:text="总消费:"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            />
+    <ListView
+            android:id="@+id/listView_consume"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ListView>
+
+</LinearLayout>
